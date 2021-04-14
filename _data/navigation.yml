@@ -2,9 +2,15 @@
 main:
   - title: "Research Projects"
     url: /research-projects/
+    
   - title: "Robotics Projects"
     url: /robotics-projects/
+    
+  - title: "Code Projects"
+    url: /code-projects/
+    
   - title: "About"
     url: /about/
+
   # - title: "Sitemap"
   #   url: /sitemap/

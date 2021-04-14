@@ -25,7 +25,7 @@ url                      : "https://lincolnkinley.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "lincolnkinley/lincolnkinley.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/self_image.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -95,8 +95,8 @@ analytics:
 # Site Author
 author:
   name             : "Lincoln Kinley"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  avatar           : "/assets/images/self_image.jpg"
+  bio              : "Wow you found my webpage. It's still under construction, so check back later!"
   location         : "Somewhere"
   email            :
   links:
@@ -117,6 +117,8 @@ footer:
       icon: "fab fa-fw fa-gitlab"
       # url:
 
+
+include: ["_pages"]
 
 # Reading Files
 include:
@@ -250,6 +252,9 @@ collections:
   robotics-projects:
     output: true
     permalink: /:collection/:path/
+  code-projects:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -272,7 +277,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-      share: true
+      share: false
   # _robotics-projects
   - scope:
       path: ""
@@ -280,4 +285,12 @@ defaults:
     values:
       layout: single
       author_profile: false
-      share: true
+      share: false
+  # _code-projects
+  - scope:
+      path: ""
+      type: code-projects
+    values:
+      layout: single
+      author_profile: false
+      share: false

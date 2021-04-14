@@ -1,4 +1,50 @@
 ---
-layout: home
-author_profile: true
+layout: splash
+permalink: /
+hidden: false
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/skyline.jpg
+excerpt: >
+  Welcome to Lincoln Kinley's website. This is the home page.
+feature_row:
+  - image_path: /assets/images/research/LeGO_LOAM_Map.PNG
+    alt: "research"
+    title: "Research Projects"
+    excerpt: "Some of my projects that I've done in my research lab."
+    url: "/research-projects/"
+    btn_class: "btn--primary"
+    btn_label: "Research Projects"
+  - image_path: /assets/images/robotics/Winston_cropped.jpg
+    alt: "robotics"
+    title: "Robotics Projects"
+    excerpt: "Some of the projects I've built a robot for."
+    url: "/robotics-projects/"
+    btn_class: "btn--primary"
+    btn_label: "Robotics Projects"
+  - image_path: /assets/images/code/mosaic.jpg
+    alt: "code"
+    title: "Code Projects"
+    excerpt: "Some of my projects that are code only."
+    url: "/code-projects/"
+    btn_class: "btn--primary"
+    btn_label: "Code Projects"
 ---
+
+{% include feature_row %}
+
+<div class="img_text">
+	<div class="left">
+		<div class="center">
+			<img src="/assets/images/self_image.jpg" alt="self_image" />
+		</div>
+	</div>
+	<div class="right">
+		<div class="center">
+			<p>
+			My name is Lincoln Kinley. I am a graduate student at Northeastern University studying Robotics. This website is still under construction, so check back later!
+			</p>
+		</div>
+	</div>
+</div>
+

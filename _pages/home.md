@@ -1,33 +1,40 @@
 ---
 layout: splash
-permalink: /
-hidden: true
+permalink: /home/
+hidden: false
 header:
   overlay_color: "#5e616c"
 excerpt: >
-  Welcome to Lincoln Kinley's website.
+  Welcome to Lincoln Kinley's website. This is the home page.
 feature_row:
   - image_path: http://placehold.it/350x250
-    alt: "customizable"
-    title: "Robotics Projects"
-    excerpt: "Some of my projects that invlove building a robot."
-    url: "/docs/configuration/"
+    alt: "research"
+    title: "Research Projects"
+    excerpt: "Some of my projects that I've done in my research lab."
+    url: "/research-projects/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "Research Projects"
   - image_path: http://placehold.it/350x250
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+    alt: "robotics"
+    title: "Robotics Projects"
+    excerpt: "Some of the projects I've built a robot for."
+    url: "/robotics-projects/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+    btn_label: "Robotics Projects"
+  - image_path: http://placehold.it/350x250
+    alt: "code"
+    title: "Code Projects"
+    excerpt: "Some of my projects that are code only."
+    url: "/code-projects/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Code Projects"
+  - image_path: http://placehold.it/350x250
+    alt: "about"
+    title: "About"
+    excerpt: "About me, I'm really cool!"
+    url: "/about-projects/"
+    btn_class: "btn--primary"
+    btn_label: "About" 
 ---
 
 {% include feature_row %}

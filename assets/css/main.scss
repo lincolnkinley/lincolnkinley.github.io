@@ -6,3 +6,53 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.img_text {
+  width: 100%;
+  display: flex;
+}
+
+.img_text .left{
+  text-align: left;
+  width: 30%;
+  -ms-transform: translate(-50%, -50%);
+}
+
+.left img {
+  border-radius: 50%;
+  border:2px solid #021a40;
+
+}
+
+.img_text .right{
+  position: relative;
+  text-align: center;
+  left: 5%;
+  width: 60%;
+}
+
+
+.self_img {
+  width: 30%;
+  display: flex;
+}
+
+.self_img img {
+  border-radius: 50%;
+  border:2px solid #021a40;
+}
