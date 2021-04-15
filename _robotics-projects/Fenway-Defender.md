@@ -9,9 +9,9 @@ collection: robotics-projects
 
 Having been successful at Robobrawl during my senior year at Southern Illinois University Carbondale, I decided to continue combat robotics when I went to grad school at Northeastern University. There was a robotics club at Northeastern University already, but they had not attended any competitions. I was determined to change that, so I started up a project to build a robot to compete at Robobrawl 2020.
 
-Immediately there was interest in the club to build a combat robot. My goal was to use some of the knowledge I'd gained at Robobrawl 2019 to build a new robot, but also to ensure that members of the team are having a learning experience too. We settled on taking the best aspects of Absaluki 3: Revenge of the Absaluki, and making a completely new robot. We took the drive train of Absaluki 3, and instead made a vertical spinner. Sticking to our Bostonian moniker, we named our robot the Fenway Defender.
+Immediately there was interest in the club to build a combat robot. My goal was to use some of the knowledge I'd gained at Robobrawl 2019 to build a new robot, but also to ensure that members of the team are having a learning experience too. We settled on taking the best aspects of Absaluki 3: Revenge of the Absaluki and making a completely new robot. We took the drive train of Absaluki 3, and instead made a vertical spinner. Sticking to our Bostonian moniker, we named our robot the Fenway Defender.
 
-Just like Absauki 3, the drive train was fully encased in Ultra High Molecular Weight Polyethylene. This method worked excellently for Absaluki, and if it works, don't fix it.
+Just like Absaluki 3, the drive train was fully encased in Ultra High Molecular Weight Polyethylene. This method worked excellently for Absaluki, and if it works, don't fix it.
 
 Fenway Defender uses a vertical spinner weapon in an attempt to knock opponents up into the air. Our weapon is smaller some of the weapons other 30 pound combat robots have, but we wanted to spend more weight on our armor. After all, Absaluki 3 showed it's possible to be successful even without a functional weapon. Our vertical spinner spins around 10,000 RPM, and only has one tooth to get the most bite on opponents.
 

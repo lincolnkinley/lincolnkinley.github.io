@@ -5,7 +5,7 @@ permalink: /code-projects/Dynamic-Object-Point-Cloud-Detection/
 collection: code-projects
 ---
 
-Many autonomous mobile robot technologies use LiDARs that generate points clouds for to build highly accurate maps of their environment. However, if the point cloud is used to perform SLAM, moving objects will be detected by a LiDAR, and could be added to the list of landmarks. This can cause issues if the robot returns to the location of the moving object, as the landmarks will no longer be detected and localization could fail. This project seeks to solve that issue by automatically detecting, classifying, and tracking moving objects in a point cloud. Furthermore, this project does not use any machine learning whatsoever.
+Many autonomous mobile robot technologies use LiDARs that generate points clouds for to build highly accurate maps of their environment. However, if the point cloud is used to perform SLAM, moving objects will be detected by a LiDAR, and could be added to the list of landmarks. This can cause issues if the robot returns to the location of the moving object, as the landmarks will no longer be detected, and localization could fail. This project seeks to solve that issue by automatically detecting, classifying, and tracking moving objects in a point cloud. Furthermore, this project does not use any machine learning whatsoever.
 
 {% include figure image_path="/assets/images/code/voxel_PCL.png" alt="Voxel PCL" caption="LiDAR Rings converted to 2D Voxel Grid." %}
 
@@ -21,7 +21,7 @@ We filter the voxel grid by doing this operation on multiple rings of interest i
 
 {% include figure image_path="/assets/images/code/pedestrian_detection_img.png" alt="Detection image" caption="Contours detect appropriately sized objects with high intensity." %}
 
-Next we attempt to classify detected objects. We find the contours of the image. Large contours of low values are noise from static objects, while small contours of high values are moving objects. Depending on the size and velocity, these objects are classified as pedestrians, cyclists, or cars.
+Next, we attempt to classify detected objects. We find the contours of the image. Large contours of low values are noise from static objects, while small contours of high values are moving objects. Depending on the size and velocity, these objects are classified as pedestrians, cyclists, or cars.
 
 {% include figure image_path="/assets/images/code/pedestrian_detection_pcl.png" alt="Detection PCL" caption="Pedestrians are detected in the point cloud." %}
 

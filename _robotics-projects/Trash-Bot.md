@@ -9,7 +9,7 @@ collection: robotics-projects
 
 Trash Bot was the first robot I built after starting my Masters degree at Northeastern University. Me and a team of three other students built Trash Bot as a project for a class, Mobile Robotics.
 
-Trash Bot is built on the Husarion ROS Bot platform, and utilizes a camera and a LiDAR as its primary means of sensing it's environment. Originally conceived as a robot that launches cheese puffs into peoples mouths, which was obviously too ambitious and brought up ethical questions about robots launching things at peoples faces, we changed to a robot that launches garbage into garbage bins. This was still to ambitious, so the premise for a robot that pushes trash to a garbage bin was born.
+Trash Bot is built on the Husarion ROS Bot platform and utilizes a camera and a LiDAR as its primary means of sensing its environment. Originally conceived as a robot that launches cheese puffs into people's mouths, which was obviously too ambitious and brought up ethical questions about robots launching things at people's faces, we changed to a robot that launches garbage into garbage bins. This was still too ambitious, so the premise for a robot that pushes trash to a garbage bin was born.
 
 Since the project was a mobile robotics project, and not a computer vision or machine learning project, we decided to simplify the visual processing by placing aruco tags on the trash (also dubbed the payload) and the garbage bin (also dubbed the delivery zone). These aruco tags made it easy for the robot to detect and recognize the payload and delivery zone, without the need for a fancy recognition algorithm.
 

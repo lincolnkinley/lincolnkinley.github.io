@@ -7,13 +7,13 @@ collection: robotics-projects
 
 {% include figure image_path="/assets/images/robotics/arm.png" alt="REACH v2 Render" %}
 
-Robotic Enhanced Amputee Controlled Hand v2, or REACH, is a robot that was built for a class project in Assistive Robotics. REACH v2 was the continuation of a capstone project done by one of my classmates during his undergrad at Northeastern University. The idea is to create a 3D printable, low cost robotic prosthetic arm with force feedback on the fingers and myoelectic sensor for controlling.
+Robotic Enhanced Amputee Controlled Hand v2, or REACH, is a robot that was built for a class project in Assistive Robotics. REACH v2 was the continuation of a capstone project done by one of my classmates during his undergrad at Northeastern University. The idea is to create a 3D printable, low cost robotic prosthetic arm with force feedback on the fingers and myoelectric sensor for controlling.
 
-The original REACH project completed a 3D printed hand that was capable of motion. This model lacked proper human dimensions, and didn't perform force feedback on objects it was gripping. We chose to upgrade these two properties for the class project.
+The original REACH project completed a 3D printed hand that was capable of motion. This model lacked proper human dimensions and didn't perform force feedback on objects it was gripping. We chose to upgrade these two properties for the class project.
 
 {% include figure image_path="/assets/images/robotics/hand.png" alt="REACH v2 Hand" %}
 
-The CAD was remade to be much smaller, and more human like. The original design was somewhat blocky, and moved unnaturally. While this isn't a major fix, resizing the wrist to get the battery, Raspberry Pi, servos, and sensors was.
+The CAD was remade to be much smaller, and more human like. The original design was somewhat blocky and moved unnaturally. While this isn't a major fix, resizing the wrist to get the battery, Raspberry Pi, servos, and sensors was.
 
 {% include figure image_path="/assets/images/robotics/wrist.jpg" alt="REACH v2 Wrist" %}
 

@@ -36,14 +36,14 @@ feature_row:
   - image_path: /assets/images/robotics/Winston.jpg
     alt: "Winston"
     title: "Winston"
-    excerpt: "Winston, arguably the most hansome robot in existance, competed at the ATMAE National Robotics Competition in 2017, and won first place overall."
+    excerpt: "Winston, arguably the most handsome robot in existence, competed at the ATMAE National Robotics Competition in 2017, and won first place overall."
     url: "/robotics-projects/Winston/"
     btn_class: "btn--primary"
     btn_label: "See Project"
   - image_path: /assets/images/robotics/sr_design_robot.jpg
     alt: "Senior Design Bot"
     title: "Senior Design Bot"
-    excerpt: "The Senior Design Bot competeted at the Midwestern Robotics Design Competition in 2017, and won first place."
+    excerpt: "The Senior Design Bot competed at the Midwestern Robotics Design Competition in 2017 and won first place."
     url: "/robotics-projects/Senior-Design-Bot/"
     btn_class: "btn--primary"
     btn_label: "See Project"
