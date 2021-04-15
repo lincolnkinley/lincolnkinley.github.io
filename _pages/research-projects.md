@@ -5,7 +5,7 @@ permalink: /research-projects/
 entries_layout: grid
 classes: wide
 feature_row:
-  - image_path: /assets/images/research/LeGO_LOAM_Map.PNG
+  - image_path: /assets/images/research/LeGO_LOAM_Map.png
     alt: "SLAM on Assistive Robots"
     title: "SLAM on Assistive Robots"
     excerpt: "This project seeks to perform autonomous navigation on a wheelchair using a 3D LiDAR and a point cloud based SLAM algorithm."
