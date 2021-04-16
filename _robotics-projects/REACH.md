@@ -20,3 +20,7 @@ The CAD was remade to be much smaller, and more human like. The original design 
 Sticking to the spirit of low cost design, we wanted to avoid purchasing expensive force measuring sensors. We settled on one of the cheapest forms of force sensing, force sensing resistors (FSR), for our design. Fishing line was used to simulate tendons in fingers, and low power servos in the wrist would control the position of the fingers. This fishing line ran through an angled channel that applied force to the FSR. When a force was applied beyond a maximum threshold, the fingers would release slightly.
 
 REACH v2 was completed working as intended. The dimensions were much more realistic for a human being, and the servos would dynamically adjust to reach to correct gripping force. All of this was done with a bill of materials of just over $400, much lower than other state of the art robotic prosthetic arms.
+
+<iframe width="420" height="315"
+    src="https://www.youtube.com/embed/xwAZOqJ3z2k">
+</iframe> 

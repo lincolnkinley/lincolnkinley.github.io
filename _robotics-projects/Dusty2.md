@@ -28,3 +28,16 @@ We improved the line following part by ditching the infrared sensors and designi
 I worked mostly on mechanical design of Dusty 2.0, focusing on building the mechanism that moves the dustpan up and down. We were having issues with the servo motor burning out due to the high torque load from suspending the entire weight of the dustpan and the blocks. To overcome this, we added a spring tensioner to the dustpan so when its fully loaded it is in the upright position and instead the servo pushes it down. This balanced the overall torque needed to move the dustpan so the servo would not burn out.
 
 Dusty 2.0 performed quite well at the ATMAE National Robotics Competition in 2016, winning first place overall and first place in every single category. At the competition, I was worried we would see some very stiff competition from other universities, since it's usually the same universities that come every year, and last year they all witnessed how well Dusty performed. I was quite surprised when none of the other teams at the competition had taken inspiration from Dusty. Only two robots made it over the burlap sack, including Dusty 2.0, and only two robots were able to collect any blocks, also including Dusty 2.0. Many of the other teams elected to use a complex robotic arm for collecting the blocks, which typically failed to grab any blocks at all.
+
+<button class="btn btn--primary" onclick="window.open('/assets/files/dusty2_report.pdf')"> Design Report </button>
+
+<button class="btn btn--primary" onclick="window.open('https://news.siu.edu/2016/11/111016tjc16061.php')"> SIU News Report </button>
+
+<iframe width="420" height="315"
+    src="https://www.youtube.com/embed/YBHc6wiyNME">
+</iframe> 
+
+<iframe width="420" height="315"
+    src="https://www.youtube.com/embed/kXoTJxz-EMs">
+</iframe> 
+

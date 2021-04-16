@@ -15,6 +15,8 @@ This year the rules changed to a larger obstacle course with five hacky sacks sc
 
 Shortly after the rules for the competition were released, we started looking for inspiration. The robot would need to be able to grab and manipulate items precisely, as well as able to lift up a weight. Shortly before receiving these rules, the Carbondale police force bomb disposal squad had just asked us for help repairing one of their old robots. We took it apart to find the only significant issue was its battery needed to be replaced, so we placed an order for a new one and the bomb disposal robot sat around until we got it in. While we were looking for inspiration, we saw the capabilities of the bomb disposal robot and what the robot would need to be able to do at the competition, and the two lined up. We settled on a robot with an extendable arm with a claw at the end of it
 
+{% include figure image_path="/assets/images/robotics/winston_close.jpg" alt="Winston Up Close" %}
+
 Once we decided on the idea, we got to work on the design. Rough ideas were laid out in CAD, which allowed us to 3D print components for testing. Like previous robots to compete at ATMAE Competitions, we created a prototype as early as possible which we could tinker with, however unlike past robots, we worked on the CAD extensively prior to manufacturing.
 
 {% include figure image_path="/assets/images/robotics/WinstonCAD.png" alt="Winston CAD" %}
@@ -23,7 +25,9 @@ One important aspect of Winston, is the way we handled software development. Pre
 
 Winston featured a welded aluminum frame joined together in three parts. The left side, the right side, and the center. The center held the arm and battery. The left side held the Arduino Mega, power electronics, driving motor controllers, and sensors. The right side held the motor controllers for the arm and power distribution.
 
-{% include figure image_path="/assets/images/robotics/winston_close.jpg" alt="Winston Up Close" %}
+<iframe width="420" height="315"
+    src="https://www.youtube.com/embed/loT50joOBiM">
+</iframe> 
 
 Like past robots, Winston was controlled using an RC controller and receiver, which outputs PWM signal to the Arduino. The Arduino would read six channels from the RC receiver, which could take as much as 12 milliseconds to process. This resulted in a noticeable delay in responsiveness when driving Winston, but it was by no means uncontrollable.
 
@@ -34,3 +38,7 @@ I was the software development team leader for Winston. We used the Arduino IDE 
 {% include figure image_path="/assets/images/robotics/winston_trophy.jpg" alt="First place trophy" %}
 
 Winston was very successful at the 2017 ATMAE National Robotics Competition. In the obstacle course, Winston was the only robot that achieved a perfect score, and his elegant design went on to capture the hearts of many judges. While we weren't able to repeat the winner of every category like we did with Dusty 2.0 the year before, competition was more stiff at the 2017 competition.
+
+<button class="btn btn--primary" onclick="window.open('https://dailyegyptian.com/76252/news/a-decade-in-the-lead-the-siu-robotics-teams-history-of-victories/')"> Daily Egyptian </button>
+
+<button class="btn btn--primary" onclick="window.open('https://news.siu.edu/2017/11/110917-robotics-team-dominates-second-straight-year.html')"> SIU News Report </button>
