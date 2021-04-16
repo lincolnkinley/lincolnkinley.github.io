@@ -11,11 +11,19 @@ Due to the overall poor performance from many of the teams competing at the ATMA
 
 Dusty worked quite well at the 2015 competition, but there were some improvements to be made. First, the line following sensors on Dusty for the autonomous portion didn't work well, Dusty could get over the burlap sack, but it would take a while and he would tumble down, often ending up inverted, and overall Dusty just looked... rough. With a year to develop Dusty 2.0, we started from the ground up. Like Dusty, we followed a prototyping model with Dusty 2.0, albeit with less rapid developments and more time spent analyzing and documenting changes. We started with a rough prototype to test the burlap sack so we wouldn't end up in a situation like the Think Tank. Once we had a prototype capable of getting over the burlap sack with ease, we began to modify it, and make CAD reflecting what would end up being Dusty 2.0.
 
+{% include figure image_path="/assets/images/robotics/dusty2_cad.jpg" alt="CAD of Dusty 2.0" %}
+
 Dusty 2.0 used four wheel skid steering with high traction wheels. This wide base and high traction made it easy to get over the burlap sack without tipping over. The dustpan hinged and controlled, allowing us to lift it up off the ground when not collecting blocks. This made going over obstacles easier as the dustpan did not drag on the ground.
+
+{% include figure image_path="/assets/images/robotics/dusty2_with_blocks.jpg" alt="Dusty 2.0 holding blocks" %}
 
 Electronics were simplified for Dusty 2.0 since they weren't inherited from the Think Tank. Dusty 2.0 was controlled with an Arduino instead of a Raspberry Pi, and we used an RC controller instead of a Wi-Fi network. While in teleoperational mode, Dusty 2.0 activated relays that would allow the RC receiver to directly control the motor controllers through a PWM signal. During autonomous the Arduino would shut off the relays and take direct control of the motor controllers. This prevented the high cycle time required to read a PWM signal on the Arduino and gave Dusty 2.0 extremely high responsiveness in teleoperational mode.
 
+{% include figure image_path="/assets/images/robotics/dusty2_continuity_sensor.jpg" alt="Continuity Sensor" %}
+
 We improved the line following part by ditching the infrared sensors and designing our own continuity sensor. Three wires were run dragging on the ground where the middle wire was put at +5 volts and the outer two wires were being sensed for +5 volts. Since the line was made with conductive tape, if either of the outer two wires read +5 volts, then the robot was straying off course, and knew which way to turn to correct it.
+
+{% include figure image_path="/assets/images/robotics/dusty2_under_the_hood.jpg" alt="Internals of Dusty 2.0" %}
 
 I worked mostly on mechanical design of Dusty 2.0, focusing on building the mechanism that moves the dustpan up and down. We were having issues with the servo motor burning out due to the high torque load from suspending the entire weight of the dustpan and the blocks. To overcome this, we added a spring tensioner to the dustpan so when its fully loaded it is in the upright position and instead the servo pushes it down. This balanced the overall torque needed to move the dustpan so the servo would not burn out.
 

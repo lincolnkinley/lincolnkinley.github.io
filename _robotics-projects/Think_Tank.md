@@ -11,6 +11,8 @@ The Think Tank is the first robot I've ever worked on. I had just arrived as a f
 
 The ATMAE National Robotics Competition is held by the Association of Technology, Management, and Applied Engineering every year, and typically is typically a obstacle course and task based competition, but the rules change every year. In 2015 those rules were go through an obstacle course featuring a burlap sack draped over PVC, a teeter totter, autonomously picking up blocks that spell out ATMAE, then going backwards through the obstacle course to the beginning and spelling out ATMAE with the collected blocks.
 
+{% include figure image_path="/assets/images/robotics/think_tank_early.png" alt="Early work on the Think Tank" %}
+
 The Think Tank was a welded steel cube on treads, with an internal conveyor belt system, an external 3-DOF 3D printed robot arm, and an external dustpan. Instead of tires we used tank treads for tank steering. We controlled the Think Tank by connecting the onboard Raspberry Pi and a laptop with a controller to a WiFi network. It was a nightmare to control.
 
 My first task for this robot was to design a method to pick up the 3D printed blocks. My first thought was use suction, however the grooves in the blocks from the layers of 3D printer prevented suction from getting a good enough seal to lift them up. After experimenting, we moved onto the idea of a dustpan that would be able to scoop the blocks up. This is ultimately what we went with, and it worked quite well. I also worked with the electronics and software team a bit, but at the time I lacked the skills to help in any meaningful way. I did start learning how to use Python though.
