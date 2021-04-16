@@ -11,7 +11,7 @@ Due to the overall poor performance from many of the teams competing at the ATMA
 
 Dusty worked quite well at the 2015 competition, but there were some improvements to be made. First, the line following sensors on Dusty for the autonomous portion didn't work well, Dusty could get over the burlap sack, but it would take a while and he would tumble down, often ending up inverted, and overall Dusty just looked... rough. With a year to develop Dusty 2.0, we started from the ground up. Like Dusty, we followed a prototyping model with Dusty 2.0, albeit with less rapid developments and more time spent analyzing and documenting changes. We started with a rough prototype to test the burlap sack so we wouldn't end up in a situation like the Think Tank. Once we had a prototype capable of getting over the burlap sack with ease, we began to modify it, and make CAD reflecting what would end up being Dusty 2.0.
 
-{% include figure image_path="/assets/images/robotics/dusty2_cad.jpg" alt="CAD of Dusty 2.0" %}
+{% include figure image_path="/assets/images/robotics/dusty2_cad.png" alt="CAD of Dusty 2.0" %}
 
 Dusty 2.0 used four wheel skid steering with high traction wheels. This wide base and high traction made it easy to get over the burlap sack without tipping over. The dustpan hinged and controlled, allowing us to lift it up off the ground when not collecting blocks. This made going over obstacles easier as the dustpan did not drag on the ground.
 

@@ -11,7 +11,7 @@ Coming off our extremely successful 2016 academic year, getting first place at t
 
 This year the rules changed to a larger obstacle course with five hacky sacks scattered in various locations. One hacky sack was in the open, one was inside a box the driver was not allowed to see into, one was on top of a weight, one was underneath a weight, and one was inside of a PVC pipe. These hacky sacks would need to be collected and deposited into two cornhole boards, and autonomously into three PVC pipe end caps.
 
-{% include figure image_path="/assets/images/robotics/winston_bomb_robot.png" alt="Bomb robot inspiration" %}
+{% include figure image_path="/assets/images/robotics/winston_bomb_robot.jpg" alt="Bomb robot inspiration" %}
 
 Shortly after the rules for the competition were released, we started looking for inspiration. The robot would need to be able to grab and manipulate items precisely, as well as able to lift up a weight. Shortly before receiving these rules, the Carbondale police force bomb disposal squad had just asked us for help repairing one of their old robots. We took it apart to find the only significant issue was its battery needed to be replaced, so we placed an order for a new one and the bomb disposal robot sat around until we got it in. While we were looking for inspiration, we saw the capabilities of the bomb disposal robot and what the robot would need to be able to do at the competition, and the two lined up. We settled on a robot with an extendable arm with a claw at the end of it
 
