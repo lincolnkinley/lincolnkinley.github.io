@@ -18,5 +18,5 @@ Trash Bot uses a finite state machine to deliver the payload. First Trash Bot at
 While Trash Bot's premise was delivering trash to garbage bins, a similar system can be applied to many robotic logistics applications. The focus here is that the robot is unaware of the location of the payload, or where it is supposed to deliver it. This principal could be used to develop a highly distributed robotic logistics system that doesn't rely on a single point of communication to function.
 
 <iframe width="420" height="315"
-    src="https://www.youtube.com/embed/i2jqfqsjcbq">
+    src="https://www.youtube.com/embed/i2JQFqSjcbQ">
 </iframe> 
