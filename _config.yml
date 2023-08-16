@@ -103,28 +103,16 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lincolnkinley"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.com/LKinley"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/lincoln-kinley"
-    - label: "Resume"
-      icon: "far fa-file-pdf"
-      url: "/assets/files/Resume_LincolnKinley.pdf"
 
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:kinley.l@northeastern.edu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lincolnkinley"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.com/LKinley"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/lincoln-kinley"
